@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.2.5"/>
+        <attribute name="authors" value="Anton"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 09:04:23 "/>
+        <attribute name="created" value="QW50b247TVNJOzIwMjUtMTAtMTY7IjA4OjI5OjMwICI7MTkzOQ=="/>
+        <attribute name="edited" value="QW50b247TVNJOzIwMjUtMTAtMTY7IjA5OjA0OjIzICI7MTsyMDQz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fahrenheit, centigradi" type="Real" array="False" size=""/>
+            <declare name="selezione" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quale conversione vuoi fare? Inserire 0 per la conversione da farhrenheit a centigradi oppure 1 per il viceversa: &quot;" newline="True"/>
+            <input variable="selezione"/>
+            <if expression="selezione == 0">
+                <then>
+                    <output expression="&quot;Inserisci la temperatura in gradi Fahrenheit: &quot;" newline="True"/>
+                    <input variable="fahrenheit"/>
+                    <assign variable="centigradi" expression="5/9 * (fahrenheit - 32)"/>
+                    <output expression="&quot;La temperatura in centigradi &#232;: &quot; &amp; centigradi" newline="True"/>
+                </then>
+                <else>
+                    <if expression="selezione == 1">
+                        <then>
+                            <output expression="&quot;Inserisci la temperatura in gradi Celsius&quot;" newline="True"/>
+                            <input variable="centigradi"/>
+                            <assign variable="fahrenheit" expression="(centigradi * 9/5) + 32"/>
+                            <output expression="&quot;La temperatura in fahrenheit &#232;: &quot; &amp; fahrenheit" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Errore selezione non valida.&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

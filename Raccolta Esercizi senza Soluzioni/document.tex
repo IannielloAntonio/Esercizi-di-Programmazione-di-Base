@@ -1,0 +1,276 @@
+\documentclass[a4paper,12pt]{article}
+
+% Lingua e codifica
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+% Impostazioni grafiche e codice
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+% Stile per il codice
+\lstset{
+	language=Python,
+	backgroundcolor=\color{gray!10},
+	basicstyle=\ttfamily\small,
+	frame=single,
+	breaklines=true,
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray!70},
+	stringstyle=\color{orange},
+	showstringspaces=false
+}
+
+\title{Esercizi di Programmazione}
+\author{Antonio Ianniello}
+\date{}   % <- rimuove la data
+
+\begin{document}
+	
+	\maketitle
+	\newpage
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Esercizi}
+	
+	\subsection{Sequenza}
+	
+	\subsubsection{Quadrato e cubo}
+	Scrivere un programma che chieda all'utente di inserire un numero e calcoli sia il quadrato sia il cubo del numero. Stampare i risultati.
+	
+	\subsubsection{Conversione minuti in ore e minuti}
+	Scrivere un programma che chieda all'utente un numero di minuti e calcoli quante ore e quanti minuti residui corrispondono. Stampare il risultato.
+	
+	\subsubsection{Conversione temperature}
+	Scrivere un programma che chieda all'utente una temperatura in gradi Celsius. Calcolare la temperatura equivalente in gradi Fahrenheit e Kelvin. Stampare i risultati.
+	
+	\subsubsection{Somma, differenza e prodotto}
+	Scrivere un programma che chieda all'utente due numeri e calcoli la somma, la differenza, il prodotto e il quoziente. Stampare tutti i risultati.
+	
+	
+	\subsubsection{Area e perimetro di un rettangolo}
+	Chiedere all'utente la base e l'altezza di un rettangolo. Calcolare l'area e il perimetro e stampare i risultati.
+	
+	\subsubsection{Area e circonferenza di un cerchio}
+	Chiedere all'utente il raggio di un cerchio e calcolare l'area e la circonferenza. Stampare i risultati.
+	
+	\subsubsection{Prezzo totale con IVA}
+	Chiedere all'utente il prezzo netto di un prodotto e la percentuale di IVA. Calcolare l'importo IVA e il prezzo totale e stamparli.
+	
+	\subsubsection{Sconto}
+	Chiedere all'utente il prezzo pieno di un prodotto e la percentuale di sconto da applicare. Calcolare l'importo dello sconto e il prezzo finale scontato. Stampare tutti i risultati.
+	
+
+	
+	\subsubsection{Parallelepipedo}
+	Chiedere all'utente le dimensioni di un parallelepipedo (lunghezza, larghezza, altezza). Calcolare il volume e l'area totale delle superfici. Stampare i risultati.
+	
+	\subsubsection{Velocita' media}
+	Chiedere all'utente la distanza percorsa e il tempo impiegato. Calcolare la velocita' media e stamparla.
+	
+	\subsubsection{Caramelle}
+	Chiedere all'utente il numero totale di caramelle e il numero di amici. Calcolare quante caramelle ciascun amico riceve (tutte devono ricevere lo stesso numero) e quante caramelle rimangono non distribuite. Stampare i risultati.
+	
+	
+	\subsubsection{Moto Accelerato Uniforme}
+	Un’auto parte da ferma e accelera uniformemente lungo una strada. L’accelerazione dell’auto è costante e pari a 2,5 m/s². Dopo 8 secondi, calcolare:
+	
+	\begin{itemize}
+		\item 	La velocità dell’auto.
+		\item 	Lo spazio percorso.
+		\item 	Il tempo necessario per raggiungere la velocità di 40 m/s.
+	\end{itemize}
+
+	
+	Scrivere un programma che chieda all’utente di inserire l’accelerazione e il tempo, e che calcoli i valori richiesti.
+	
+
+
+\newpage
+
+\subsection{Selezione}
+
+\subsubsection{Positivo o Negativo}
+
+Scrivere un programma che chieda all’utente di inserire un numero. Il programma deve determinare se il numero inserito sia positivo o negativo e stampare un messaggio che lo comunichi all’utente.
+	
+
+\subsubsection{Valore Assoluto}
+Scrivere un programma che chieda all’utente di inserire un numero. Il programma deve calcolare il valore assoluto del numero inserito e stampare il risultato.
+
+\subsubsection{Maggiorenne}
+Scrivere un programma che chieda all’utente di inserire la propria età. Il programma deve verificare se l’utente è maggiorenne (cioè ha almeno 18 anni) e stampare un messaggio che lo comunichi.
+
+
+\subsubsection{Multiplo}
+Scrivere un programma che legga due numeri dall’utente e verifichi se il primo è multiplo del secondo. Stampare il risultato.
+	
+	
+\subsubsection{Conversione Temperature}
+Scrivere un programma che chieda all’utente di scegliere tra due conversioni di temperatura:
+
+\begin{itemize}
+	\item Celsius -> Fahrenheit
+	\item Fahrenheit -> Celsius
+\end{itemize}
+
+
+
+Il programma deve:
+\begin{itemize}
+	\item Leggere la temperatura inserita dall’utente.
+	\item Controllare che la temperatura non sia inferiore allo zero assoluto.
+	\item Effettuare la conversione richiesta.
+	\item Stampare il risultato.
+\end{itemize}
+
+
+\subsubsection{Uomo sulla Luna}
+Scrivere un programma che legga dall'utente l'anno di nascita. 
+Il programma deve verificare se l'utente e' nato nel 1969. 
+Se no, deve calcolare quanti anni prima o dopo il 1969 e stampare il risultato.
+
+
+\subsubsection{Equazione di Secondo Grado}
+Scrivere un programma che legga dall'utente i coefficienti $a$, $b$ e $c$ di un'equazione di secondo grado. 
+Il programma deve calcolare le soluzioni reali dell'equazione, se esistono, e stamparle.
+
+
+	
+\subsubsection{Valutazione del voto}
+	
+	Scrivere un programma che legga un voto dall'utente. 
+	Il programma deve indicare se il voto e' insufficiente o sufficiente. 
+	Se il voto e' insufficiente, deve distinguere tra gravemente insufficiente (minore o uguale a 4) o insufficiente (compreso tra 4 escluso e 6 escluso).
+	
+	
+\subsubsection{Massimo tra tre numeri}
+
+Scrivere un programma che legga tre numeri dall'utente. 
+Il programma deve stampare quale dei tre numeri e' il maggiore: "il maggiore e' il primo", "il maggiore e' il secondo" o "il maggiore e' il terzo".
+
+
+\subsubsection{Biglietto VIP}
+
+Scrivere un programma che legga l'età e il tipo di biglietto dell'utente. 
+Il programma deve stampare "Accesso consentito" se l'utente ha meno di 18 anni oppure possiede un biglietto VIP. 
+Altrimenti deve stampare "Accesso negato".
+	
+	
+\subsubsection{Re e Regina}
+
+Su una scacchiera $8 \times 8$ sono posizionati due pezzi: il Re bianco e la Regina nera.  
+Scrivere un programma che, acquisite le posizioni del Re e della Regina, determini se la Regina è in posizione tale da poter mangiare il Re.  
+
+Le posizioni dei due pezzi sono identificate mediante la riga e la colonna su cui si trovano, espresse come numeri interi tra 1 e 8.
+
+	
+	
+\subsection{Iterazioni}
+
+\subsubsection{Primi $n$ numeri}
+	Scrivere un programma che chiede all'utente di inserire un numero intero $n$ e stampa i primi $n$ numeri naturali a partire da 1.
+	
+	
+\subsubsection{Somma di N numeri}
+Scrivere un programma che chiede all'utente di inserire un numero intero $N$, che rappresenta la quantità di numeri da sommare. Successivamente il programma legge i $N$ numeri inseriti dall'utente e ne calcola la somma totale.
+
+\subsubsection{Numero Positivo}
+Scrivere un programma che chiede all'utente di inserire un numero intero positivo $n$. Se l'utente inserisce un numero negativo o nullo, il programma deve continuare a richiedere il valore finché non viene inserito un numero positivo.
+
+
+\subsubsection{Calcolo della Media}
+Scrivere un programma che calcoli la media aritmetica di una serie di numeri inseriti da tastiera.
+
+\begin{itemize}
+	\item Nella prima versione, l'inserimento termina quando l'utente digita il valore \texttt{0}. Il programma deve poi calcolare e stampare la media dei valori inseriti (escludendo lo zero).
+	\item Nella seconda versione, il programma chiede prima quanti numeri l'utente intende inserire (\texttt{n}) e poi calcola la media dei numeri forniti.
+\end{itemize}
+
+
+\subsubsection{Fattoriale}
+Scrivere un programma che acquisisca da tastiera un numero intero positivo \texttt{N} e calcoli il valore del suo fattoriale.
+
+Il fattoriale di un numero è il prodotto di tutti i numeri compresi tra 1 ed \texttt{N}.  
+Si ricorda che:
+\[
+N! = 1 \times 2 \times 3 \times \dots \times N
+\]
+Inoltre, per convenzione:
+\[
+0! = 1
+\]
+
+\subsubsection{Tabellina}
+Scrivere un programma che chieda all'utente un numero intero positivo e stampi la sua tabellina fino a 10.
+
+
+\subsubsection{Fibonacci}
+Scrivere un programma che chieda all'utente un numero intero positivo N e stampi i primi N termini della serie di Fibonacci.
+La serie di Fibonacci è una sequenza di numeri tali per cui ognuno di essi corrisponde alla somma dei due precedenti:
+
+\[
+1 \quad 2 \quad 3 \quad 5 \quad 8 \quad 13 \quad 21 \quad 34 \quad \dots
+\]
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\subsection{Strutture Miste}
+\subsubsection{Divisori di un numero}
+Scrivere un programma che, letto un numero intero positivo, visualizzi tutti i suoi divisori.
+
+Si ricorda che il resto della divisione si calcola con l’operatore \texttt{\%}.  
+Ad esempio:  
+\[
+5 \% 2 = 1
+\]
+	
+	
+	\subsubsection{Numeri Primi}
+	Scrivere un programma che legge un numero intero positivo e verifica se è un numero primo.
+	
+	Si ricorda che un numero primo è un numero maggiore di 1 che non ha altri divisori oltre a 1 e se stesso.
+	
+	
+	
+	\subsubsection{Gioco "Indovina un numero"}
+	
+	Si scriva un programma che permetta di giocare al gioco "Indovina un numero".  
+	
+	Un primo utente inserisce da tastiera un numero segreto compreso tra 1 e 100.  
+	Il secondo utente deve indovinare il numero entro un massimo di 10 tentativi.  
+	
+	Ad ogni tentativo il programma stampa:
+	- "Esatto!" se il numero è corretto,  
+	- "Troppo alto" se il numero ipotizzato è maggiore di quello segreto,  
+	- "Troppo basso" se il numero ipotizzato è minore di quello segreto.  
+	
+	Se il numero non viene indovinato entro 10 tentativi, il programma stampa "Hai perso".
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+\end{document}

@@ -1,0 +1,1060 @@
+\documentclass[a4paper,12pt]{article}
+
+% Lingua e codifica
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+\usepackage[a4paper, left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+% Impostazioni grafiche e codice
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amsmath}
+
+% Stile per il codice
+\lstset{
+	language=Python,
+	backgroundcolor=\color{gray!10},
+	basicstyle=\ttfamily\small,
+	frame=single,
+	breaklines=true,
+	keywordstyle=\color{blue},
+	commentstyle=\color{gray!70},
+	stringstyle=\color{orange},
+	showstringspaces=false
+}
+
+\title{Esercizi di Programmazione}
+\author{Antonio Ianniello}
+\date{}   % <- rimuove la data
+
+\begin{document}
+	
+	\maketitle
+	\newpage
+	\tableofcontents
+	
+	\newpage
+	
+	\section{Esercizi}
+	
+	\subsection{Sequenza}
+	
+	\subsubsection{Quadrato e cubo}
+	Scrivere un programma che chieda all'utente di inserire un numero e calcoli sia il quadrato sia il cubo del numero. Stampare i risultati.
+	
+	\subsubsection{Conversione minuti in ore e minuti}
+	Scrivere un programma che chieda all'utente un numero di minuti e calcoli quante ore e quanti minuti residui corrispondono. Stampare il risultato.
+	
+	\subsubsection{Conversione temperature}
+	Scrivere un programma che chieda all'utente una temperatura in gradi Celsius. Calcolare la temperatura equivalente in gradi Fahrenheit e Kelvin. Stampare i risultati.
+	
+	\subsubsection{Somma, differenza e prodotto}
+	Scrivere un programma che chieda all'utente due numeri e calcoli la somma, la differenza, il prodotto e il quoziente. Stampare tutti i risultati.
+	
+	
+	\subsubsection{Area e perimetro di un rettangolo}
+	Chiedere all'utente la base e l'altezza di un rettangolo. Calcolare l'area e il perimetro e stampare i risultati.
+	
+	\subsubsection{Area e circonferenza di un cerchio}
+	Chiedere all'utente il raggio di un cerchio e calcolare l'area e la circonferenza. Stampare i risultati.
+	
+	\subsubsection{Prezzo totale con IVA}
+	Chiedere all'utente il prezzo netto di un prodotto e la percentuale di IVA. Calcolare l'importo IVA e il prezzo totale e stamparli.
+	
+	\subsubsection{Sconto}
+	Chiedere all'utente il prezzo pieno di un prodotto e la percentuale di sconto da applicare. Calcolare l'importo dello sconto e il prezzo finale scontato. Stampare tutti i risultati.
+	
+
+	
+	\subsubsection{Parallelepipedo}
+	Chiedere all'utente le dimensioni di un parallelepipedo (lunghezza, larghezza, altezza). Calcolare il volume e l'area totale delle superfici. Stampare i risultati.
+	
+	\subsubsection{Velocita' media}
+	Chiedere all'utente la distanza percorsa e il tempo impiegato. Calcolare la velocita' media e stamparla.
+	
+	\subsubsection{Caramelle}
+	Chiedere all'utente il numero totale di caramelle e il numero di amici. Calcolare quante caramelle ciascun amico riceve (tutte devono ricevere lo stesso numero) e quante caramelle rimangono non distribuite. Stampare i risultati.
+	
+	
+	\subsubsection{Moto Accelerato Uniforme}
+	Un’auto parte da ferma e accelera uniformemente lungo una strada. L’accelerazione dell’auto è costante e pari a 2,5 m/s². Dopo 8 secondi, calcolare:
+	
+	\begin{itemize}
+		\item 	La velocità dell’auto.
+		\item 	Lo spazio percorso.
+		\item 	Il tempo necessario per raggiungere la velocità di 40 m/s.
+	\end{itemize}
+
+	
+	Scrivere un programma che chieda all’utente di inserire l’accelerazione e il tempo, e che calcoli i valori richiesti.
+	
+
+
+\newpage
+
+\subsection{Selezione}
+
+\subsubsection{Positivo o Negativo}
+
+Scrivere un programma che chieda all’utente di inserire un numero. Il programma deve determinare se il numero inserito sia positivo o negativo e stampare un messaggio che lo comunichi all’utente.
+	
+
+\subsubsection{Valore Assoluto}
+Scrivere un programma che chieda all’utente di inserire un numero. Il programma deve calcolare il valore assoluto del numero inserito e stampare il risultato.
+
+\subsubsection{Maggiorenne}
+Scrivere un programma che chieda all’utente di inserire la propria età. Il programma deve verificare se l’utente è maggiorenne (cioè ha almeno 18 anni) e stampare un messaggio che lo comunichi.
+
+
+\subsubsection{Multiplo}
+Scrivere un programma che legga due numeri dall’utente e verifichi se il primo è multiplo del secondo. Stampare il risultato.
+	
+	
+\subsubsection{Conversione Temperature}
+Scrivere un programma che chieda all’utente di scegliere tra due conversioni di temperatura:
+
+\begin{itemize}
+	\item Celsius -> Fahrenheit
+	\item Fahrenheit -> Celsius
+\end{itemize}
+
+
+
+Il programma deve:
+\begin{itemize}
+	\item Leggere la temperatura inserita dall’utente.
+	\item Controllare che la temperatura non sia inferiore allo zero assoluto.
+	\item Effettuare la conversione richiesta.
+	\item Stampare il risultato.
+\end{itemize}
+
+
+\subsubsection{Uomo sulla Luna}
+Scrivere un programma che legga dall'utente l'anno di nascita. 
+Il programma deve verificare se l'utente e' nato nel 1969. 
+Se no, deve calcolare quanti anni prima o dopo il 1969 e stampare il risultato.
+
+
+\subsubsection{Equazione di Secondo Grado}
+Scrivere un programma che legga dall'utente i coefficienti $a$, $b$ e $c$ di un'equazione di secondo grado. 
+Il programma deve calcolare le soluzioni reali dell'equazione, se esistono, e stamparle.
+
+
+	
+\subsubsection{Valutazione del voto}
+	
+	Scrivere un programma che legga un voto dall'utente. 
+	Il programma deve indicare se il voto e' insufficiente o sufficiente. 
+	Se il voto e' insufficiente, deve distinguere tra gravemente insufficiente (minore o uguale a 4) o insufficiente (compreso tra 4 escluso e 6 escluso).
+	
+	
+\subsubsection{Massimo tra tre numeri}
+
+Scrivere un programma che legga tre numeri dall'utente. 
+Il programma deve stampare quale dei tre numeri e' il maggiore: "il maggiore e' il primo", "il maggiore e' il secondo" o "il maggiore e' il terzo".
+
+
+\subsubsection{Biglietto VIP}
+
+Scrivere un programma che legga l'età e il tipo di biglietto dell'utente. 
+Il programma deve stampare "Accesso consentito" se l'utente ha meno di 18 anni oppure possiede un biglietto VIP. 
+Altrimenti deve stampare "Accesso negato".
+	
+	
+\subsubsection{Re e Regina}
+
+Su una scacchiera $8 \times 8$ sono posizionati due pezzi: il Re bianco e la Regina nera.  
+Scrivere un programma che, acquisite le posizioni del Re e della Regina, determini se la Regina è in posizione tale da poter mangiare il Re.  
+
+Le posizioni dei due pezzi sono identificate mediante la riga e la colonna su cui si trovano, espresse come numeri interi tra 1 e 8.
+
+	
+	
+\subsection{Iterazioni}
+
+\subsubsection{Primi $n$ numeri}
+	Scrivere un programma che chiede all'utente di inserire un numero intero $n$ e stampa i primi $n$ numeri naturali a partire da 1.
+	
+	
+\subsubsection{Somma di N numeri}
+Scrivere un programma che chiede all'utente di inserire un numero intero $N$, che rappresenta la quantità di numeri da sommare. Successivamente il programma legge i $N$ numeri inseriti dall'utente e ne calcola la somma totale.
+
+\subsubsection{Numero Positivo}
+Scrivere un programma che chiede all'utente di inserire un numero intero positivo $n$. Se l'utente inserisce un numero negativo o nullo, il programma deve continuare a richiedere il valore finché non viene inserito un numero positivo.
+
+
+\subsubsection{Calcolo della Media}
+Scrivere un programma che calcoli la media aritmetica di una serie di numeri inseriti da tastiera.
+
+\begin{itemize}
+	\item Nella prima versione, l'inserimento termina quando l'utente digita il valore \texttt{0}. Il programma deve poi calcolare e stampare la media dei valori inseriti (escludendo lo zero).
+	\item Nella seconda versione, il programma chiede prima quanti numeri l'utente intende inserire (\texttt{n}) e poi calcola la media dei numeri forniti.
+\end{itemize}
+
+
+\subsubsection{Fattoriale}
+Scrivere un programma che acquisisca da tastiera un numero intero positivo \texttt{N} e calcoli il valore del suo fattoriale.
+
+Il fattoriale di un numero è il prodotto di tutti i numeri compresi tra 1 ed \texttt{N}.  
+Si ricorda che:
+\[
+N! = 1 \times 2 \times 3 \times \dots \times N
+\]
+Inoltre, per convenzione:
+\[
+0! = 1
+\]
+
+\subsubsection{Tabellina}
+Scrivere un programma che chieda all'utente un numero intero positivo e stampi la sua tabellina fino a 10.
+
+
+\subsubsection{Fibonacci}
+Scrivere un programma che chieda all'utente un numero intero positivo N e stampi i primi N termini della serie di Fibonacci.
+La serie di Fibonacci è una sequenza di numeri tali per cui ognuno di essi corrisponde alla somma dei due precedenti:
+
+\[
+1 \quad 2 \quad 3 \quad 5 \quad 8 \quad 13 \quad 21 \quad 34 \quad \dots
+\]
+
+
+
+
+
+
+
+
+
+
+\newpage
+
+\subsection{Strutture Miste}
+\subsubsection{Divisori di un numero}
+Scrivere un programma che, letto un numero intero positivo, visualizzi tutti i suoi divisori.
+
+Si ricorda che il resto della divisione si calcola con l’operatore \texttt{\%}.  
+Ad esempio:  
+\[
+5 \% 2 = 1
+\]
+	
+	
+	\subsubsection{Numeri Primi}
+	Scrivere un programma che legge un numero intero positivo e verifica se è un numero primo.
+	
+	Si ricorda che un numero primo è un numero maggiore di 1 che non ha altri divisori oltre a 1 e se stesso.
+	
+	
+	
+	\subsubsection{Gioco "Indovina un numero"}
+	
+	Si scriva un programma che permetta di giocare al gioco "Indovina un numero".  
+	
+	Un primo utente inserisce da tastiera un numero segreto compreso tra 1 e 100.  
+	Il secondo utente deve indovinare il numero entro un massimo di 10 tentativi.  
+	
+	Ad ogni tentativo il programma stampa:
+	- "Esatto!" se il numero è corretto,  
+	- "Troppo alto" se il numero ipotizzato è maggiore di quello segreto,  
+	- "Troppo basso" se il numero ipotizzato è minore di quello segreto.  
+	
+	Se il numero non viene indovinato entro 10 tentativi, il programma stampa "Hai perso".
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\newpage
+	\section{Soluzioni}
+	
+	\subsection{Sequenza}
+
+	\subsubsection{Quadrato e cubo}
+	\begin{lstlisting}
+# Chiedo all'utente di inserire un numero
+# Uso float per permettere numeri decimali
+numero = float(input("Inserisci un numero: "))
+
+# Calcolo il quadrato e il cubo del numero
+quadrato = numero ** 2
+cubo = numero ** 3
+	
+# Stampo i risultati
+print("Il quadrato di", numero, "e'", quadrato)
+print("Il cubo di", numero, "e'", cubo)
+	\end{lstlisting}
+	
+
+\newpage
+	\subsubsection{Conversione minuti in ore e minuti}
+	\begin{lstlisting}
+# Chiedo all'utente il numero totale di minuti
+minuti_totali = int(input("Inserisci il numero di minuti: "))
+		
+# Calcolo le ore (divisione intera)
+ore = minuti_totali // 60
+		
+# Calcolo i minuti residui (resto della divisione)
+minuti = minuti_totali % 60
+		
+# Stampo i risultati
+print("Ore:", ore)
+print("Minuti residui:", minuti)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Conversione temperature}
+	\begin{lstlisting}
+# Chiedo all'utente la temperatura in gradi Celsius
+celsius = float(input("Inserisci la temperatura in gradi Celsius: "))
+	
+# Calcolo Fahrenheit e Kelvin
+fahrenheit = celsius * 9/5 + 32
+kelvin = celsius + 273.15
+		
+# Stampo i risultati
+print("Temperatura in Fahrenheit:", fahrenheit)
+print("Temperatura in Kelvin:", kelvin)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Somma, differenza e prodotto}
+	\begin{lstlisting}
+# Chiedo all'utente due numeri
+num1 = float(input("Inserisci il primo numero: "))
+num2 = float(input("Inserisci il secondo numero: "))
+		
+# Calcolo somma, differenza, prodotto e quoziente
+somma = num1 + num2
+differenza = num1 - num2
+prodotto = num1 * num2
+quoziente = num1 / num2  # divisione normale, puo' dare decimali
+		
+# Stampo i risultati
+print("Somma:", somma)
+print("Differenza:", differenza)
+print("Prodotto:", prodotto)
+print("Quoziente:", quoziente)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Area e perimetro di un rettangolo}
+	\begin{lstlisting}
+# Chiedo all'utente base e altezza
+base = float(input("Inserisci la base del rettangolo: "))
+altezza = float(input("Inserisci l'altezza del rettangolo: "))
+		
+# Calcolo area e perimetro
+area = base * altezza
+perimetro = 2 * (base + altezza)
+		
+# Stampo i risultati
+print("Area:", area)
+print("Perimetro:", perimetro)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Area e circonferenza di un cerchio}
+	\begin{lstlisting}
+import math  # libreria per costante pi greco
+		
+# Chiedo all'utente il raggio
+raggio = float(input("Inserisci il raggio del cerchio: "))
+		
+# Calcolo area e circonferenza
+area = math.pi * raggio**2
+circonferenza = 2 * math.pi * raggio
+		
+# Stampo i risultati
+print("Area:", area)
+print("Circonferenza:", circonferenza)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Prezzo totale con IVA}
+	\begin{lstlisting}
+# Chiedo all'utente il prezzo netto
+prezzo_netto = float(input("Inserisci il prezzo netto: "))
+
+# Chiedo all'utente la percentuale di IVA
+iva = float(input("Inserisci la percentuale di IVA: "))
+	
+# Calcolo importo IVA e prezzo totale
+importo_iva = prezzo_netto * iva / 100
+prezzo_totale = prezzo_netto + importo_iva
+		
+# Stampo i risultati
+print("Importo IVA:", round(importo_iva, 2))  # round arrotonda a 2 decimali
+print("Prezzo totale:", round(prezzo_totale, 2))
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Sconto}
+	\begin{lstlisting}
+# Chiedo all'utente il prezzo pieno
+prezzo_pieno = float(input("Inserisci il prezzo pieno del prodotto: "))
+		
+# Chiedo la percentuale di sconto
+percentuale_sconto = float(input("Inserisci la percentuale di sconto (%): "))
+
+# Calcolo sconto in valore assoluto
+sconto = prezzo_pieno * percentuale_sconto / 100
+
+# Calcolo prezzo scontato
+prezzo_scontato = prezzo_pieno - sconto
+
+# Stampo i risultati arrotondati a 2 decimali
+print("Prezzo pieno: euro", round(prezzo_pieno, 2))
+print("Sconto: euro", round(sconto, 2))
+print("Prezzo scontato: euro", round(prezzo_scontato, 2))
+	\end{lstlisting}
+	
+
+	\newpage
+	\subsubsection{Parallelepipedo}
+	\begin{lstlisting}
+# Chiedo all'utente le dimensioni
+lunghezza = float(input("Inserisci la lunghezza del parallelepipedo: "))
+larghezza = float(input("Inserisci la larghezza del parallelepipedo: "))
+altezza = float(input("Inserisci l'altezza del parallelepipedo: "))
+		
+# Calcolo volume
+volume = lunghezza * larghezza * altezza
+		
+# Calcolo area totale delle superfici
+area_superfici = 2 * (lunghezza*larghezza + lunghezza*altezza + larghezza*altezza)
+		
+# Stampo risultati
+print("Volume:", volume)
+print("Area totale delle superfici:", area_superfici)
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Velocita' media}
+	\begin{lstlisting}
+# Chiedo distanza e tempo
+distanza = float(input("Inserisci la distanza percorsa (km): "))
+tempo = float(input("Inserisci il tempo impiegato (ore): "))
+		
+# Calcolo velocita' media
+velocita = distanza / tempo
+		
+# Stampo il risultato
+print("La velocita' media e':", round(velocita, 2), "km/h")
+	\end{lstlisting}
+	
+	\newpage
+	\subsubsection{Caramelle}
+	\begin{lstlisting}
+# Chiedo numero totale di caramelle
+totale_caramelle = int(input("Inserisci il numero totale di caramelle: "))
+	
+# Chiedo numero di amici
+numero_amici = int(input("Inserisci il numero di amici: "))
+		
+# Calcolo quante caramelle riceve ciascun amico
+caramelle_per_amico = totale_caramelle // numero_amici  # divisione intera
+		
+# Calcolo quante caramelle rimangono
+caramelle_rimanenti = totale_caramelle % numero_amici  # resto della divisione
+		
+# Stampo risultati
+print("Ogni amico riceve:", caramelle_per_amico, "caramelle")
+print("Rimangono non distribuite:", caramelle_rimanenti, "caramelle")
+	\end{lstlisting}
+	
+	
+	\newpage
+	\subsubsection{Moto Accelerato Uniforme}
+	
+	\begin{lstlisting}
+# Chiedo all'utente l'accelerazione (in m/s^2)
+accelerazione = float(input("Inserisci l'accelerazione (m/s^2): "))
+
+# Chiedo il tempo trascorso (in secondi)
+tempo = float(input("Inserisci il tempo trascorso (s): "))
+
+# 1. Calcolo la velocita' finale usando v = a * t
+velocita = accelerazione * tempo
+
+# 2. Calcolo lo spazio percorso usando s = 0.5 * a * t^2
+spazio = 0.5 * accelerazione * tempo**2
+
+# 3. Calcolo il tempo necessario per raggiungere una velocita' target
+velocita_target = float(input("Inserisci la velocita' target (m/s): "))
+tempo_target = velocita_target / accelerazione  # t = v/a
+
+# Stampo i risultati arrotondati a 2 decimali
+print("Velocita' finale:", round(velocita, 2), "m/s")
+print("Spazio percorso:", round(spazio, 2), "m")
+print("Tempo per raggiungere", velocita_target, "m/s:", round(tempo_target, 2), "s")
+
+	\end{lstlisting}
+	
+	
+	
+	
+
+\newpage
+\subsection{Selezione}
+
+\subsubsection{Positivo o Negativo}
+VERSIONE CORRETTA
+\begin{lstlisting}
+# Chiedo all'utente di inserire un numero
+numero = float(input("Inserisci un numero: "))
+
+# Le istruzioni dentro if, elif ed else devono essere indentate (tabulate o 4 spazi)
+# In Python la tabulazione e' fondamentale per indicare quali istruzioni appartengono
+# a ciascun blocco di codice. Senza di essa il programma da errore.
+if numero > 0:
+	print("Il numero e' positivo")
+elif numero < 0:
+	print("Il numero e' negativo")
+else:
+	print("Il numero e' zero")
+	
+\end{lstlisting}
+
+VERSIONE ERRATA:
+
+\begin{lstlisting}
+numero = float(input("Inserisci un numero: "))
+
+# Questa versione e' errata
+if numero > 0:
+print("Il numero e' positivo")
+elif numero < 0:
+print("Il numero e' negativo")
+else:
+print("Il numero e' zero")
+\end{lstlisting}
+
+\newpage
+\subsubsection{Valore Assoluto}
+
+\begin{lstlisting}
+# Chiedo all'utente di inserire un numero
+numero = float(input("Inserisci un numero: "))
+
+# Calcolo il valore assoluto usando if
+if numero < 0:
+	valore_assoluto = -numero  
+	# se il numero e' negativo, cambio segno
+else:
+	valore_assoluto = numero  
+	 # se il numero e' positivo o zero, rimane uguale
+
+# Stampo il risultato
+print("Il valore assoluto di", numero, "e':", valore_assoluto)
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Maggiorenne}
+
+\begin{lstlisting}
+# Chiedo all'utente di inserire la propria eta'
+eta = int(input("Inserisci la tua eta': "))
+
+# Verifico se l'utente e' maggiorenne
+if eta >= 18:
+	print("Sei maggiorenne")
+else:
+	print("Non sei maggiorenne")
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Multiplo}
+\begin{lstlisting}
+# Chiedo all'utente di inserire il primo numero
+num1 = int(input("Inserisci il primo numero: "))
+
+# Chiedo all'utente di inserire il secondo numero
+num2 = int(input("Inserisci il secondo numero: "))
+
+# Verifico se il primo numero e' multiplo del secondo
+# Per la verifica vado a verificare il resto della divisione di num1 e num2. Se questo e' 0 allora sono multipli
+if num1 % num2 == 0:
+	print(num1, "e' multiplo di", num2)
+else:
+	print(num1, "non e' multiplo di", num2)
+\end{lstlisting}
+
+\newpage
+\subsubsection{Conversione Temperature}
+
+\begin{lstlisting}
+# Chiedo all'utente quale conversione vuole fare
+print("1: Celsius -> Fahrenheit")
+print("2: Fahrenheit -> Celsius")
+scelta = int(input("Inserisci 1 o 2: "))
+
+if scelta == 1:
+	celsius = float(input("Inserisci la temperatura in Celsius: "))
+
+	# Controllo che non sia sotto lo zero assoluto
+	if celsius < -273.15:
+		print("Errore: temperatura sotto lo zero assoluto")
+	else:
+		fahrenheit = (9/5) * celsius + 32
+		kelvin = celsius + 273.15
+		print("Fahrenheit:", round(fahrenheit,2))
+		print("Kelvin:", round(kelvin,2))
+
+elif scelta == 2:
+	fahrenheit = float(input("Inserisci la temperatura in Fahrenheit: "))
+	celsius = (fahrenheit - 32) * 5/9
+
+	# Controllo che non sia sotto lo zero assoluto in Celsius
+	if celsius < -273.15:
+		print("Errore: temperatura sotto lo zero assoluto")
+	else:
+		kelvin = celsius + 273.15
+		print("Celsius:", round(celsius,2))
+		print("Kelvin:", round(kelvin,2))
+
+else:
+	print("Scelta non valida")
+
+\end{lstlisting}
+
+
+\newpage
+
+\subsubsection{Uomo sulla Luna}
+\begin{lstlisting}
+# Anno in cui l'uomo e' andato sulla Luna
+anno_luna = 1969
+
+# Chiedo all'utente di inserire l'anno di nascita
+anno_nascita = int(input("Inserisci il tuo anno di nascita: "))
+
+# Confronto con l'anno della Luna
+if anno_nascita == anno_luna:
+	print("Sei nato nell'anno in cui l'uomo e' andato sulla Luna")
+elif anno_nascita < anno_luna:
+	differenza = anno_luna - anno_nascita
+	print("Sei nato", differenza, "anni prima del 1969")
+else:
+	differenza = anno_nascita - anno_luna
+	print("Sei nato", differenza, "anni dopo il 1969")
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Equazioni di Secondo Grado}
+\begin{lstlisting}
+# Importo il modulo math per usare funzioni matematiche avanzate,
+# come sqrt() per calcolare la radice quadrata
+import math
+
+# Chiedo i coefficienti all'utente
+a = float(input("Inserisci il coefficiente a: "))
+b = float(input("Inserisci il coefficiente b: "))
+c = float(input("Inserisci il coefficiente c: "))
+
+# Controllo se a e' zero (in tal caso non e' piu' un'equazione di secondo grado)
+if a == 0:
+	print("Non e' un'equazione di secondo grado")
+else:
+	# Calcolo del discriminante delta = b^2 - 4*a*c
+	delta = b**2 - 4*a*c
+
+	if delta < 0:
+		# Se delta < 0 non ci sono soluzioni reali
+		print("L'equazione non ha soluzioni reali")
+	elif delta == 0:
+		# Se delta = 0 c'e' una soluzione reale doppia
+		x = -b / (2*a)
+		print("L'equazione ha una soluzione reale:", x)
+	else:
+		# Se delta > 0 ci sono due soluzioni reali distinte
+		# Uso math.sqrt(delta) per calcolare la radice quadrata di delta
+		x1 = (-b + math.sqrt(delta)) / (2*a)
+		x2 = (-b - math.sqrt(delta)) / (2*a)
+		print("L'equazione ha due soluzioni reali:", x1, "e", x2)
+\end{lstlisting}
+
+
+
+\newpage
+\subsubsection{Valutazione del voto}
+\begin{lstlisting}
+# Chiedo all'utente di inserire il voto
+voto = float(input("Inserisci il voto: "))
+
+# Verifico se il voto e' sufficiente o insufficiente
+if voto >= 6:
+	print("Voto sufficiente")
+else:
+# Se il voto e' insufficiente, distinguo tra gravemente insufficiente o insufficiente
+	if voto <= 4:
+		print("Gravemente insufficiente")
+	else:
+		print("Insufficiente")
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Massimo tra tre numeri}
+
+\begin{lstlisting}
+# Chiedo all'utente di inserire tre numeri
+num1 = float(input("Inserisci il primo numero: "))
+num2 = float(input("Inserisci il secondo numero: "))
+num3 = float(input("Inserisci il terzo numero: "))
+
+# Confronto i numeri per determinare il maggiore
+# L'operatore 'and' serve a verificare che entrambe le condizioni siano vere
+# Se anche UNA SOLA delle due e' falsa, la condizione viene reputata falsa
+if num1 >= num2 and num1 >= num3:
+	print("Il maggiore e' il primo")
+elif num2 >= num1 and num2 >= num3:
+	print("Il maggiore e' il secondo")
+else:
+	print("Il maggiore e' il terzo")
+
+\end{lstlisting}
+
+
+
+
+\newpage
+\subsubsection{Biglietto VIP}
+\begin{lstlisting}
+# Chiedo all'utente l'eta'
+eta = int(input("Inserisci la tua eta': "))
+
+# Chiedo all'utente il tipo di biglietto (VIP = 1, normale = 0)
+biglietto_vip = int(input("Possiedi un biglietto VIP? (1 = si, 0 = no): "))
+
+# Controllo se l'accesso e' consentito
+# Uso 'or' per verificare due condizioni alternative
+# L'accesso e' consentito se eta < 18 oppure se ha il biglietto VIP
+# Con "or" basta che una sola delle due condizioni sia vera per reputare l'intera condizione dell'if vera.
+if eta < 18 or biglietto_vip == 1:
+	print("Accesso consentito")
+else:
+	print("Accesso negato")
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Re e Regina}
+\begin{lstlisting}
+# Acquisisco la posizione del Re
+riga_re = int(input("Inserisci la riga del Re (1-8): "))
+colonna_re = int(input("Inserisci la colonna del Re (1-8): "))
+
+# Acquisisco la posizione della Regina
+riga_regina = int(input("Inserisci la riga della Regina (1-8): "))
+colonna_regina = int(input("Inserisci la colonna della Regina (1-8): "))
+
+# Controllo se la Regina puo' mangiare il Re
+# La Regina puo' mangiare se e' sulla stessa riga, colonna o diagonale del Re
+	if riga_re == riga_regina or colonna_re == colonna_regina or abs(riga_re - riga_regina) == abs(colonna_re - colonna_regina):
+	print("La Regina puo' mangiare il Re.")
+else:
+	print("La Regina non puo' mangiare il Re.")
+
+# Nota:
+# Uso abs() per ottenere il valore assoluto della differenza tra righe e colonne.
+# Se le differenze tra riga e colonna sono uguali, i due pezzi si trovano sulla stessa diagonale.
+
+\end{lstlisting}
+
+\newpage
+\subsection{Iterazioni}
+
+
+
+\subsubsection{Primi $n$ numeri}
+\begin{lstlisting}
+# Chiedo all'utente quanti numeri stampare
+n = int(input("Inserisci un numero intero n: "))
+
+# Stampo i numeri da 1 fino a n
+# Uso la funzione range(1, n+1) perche' range esclude il limite superiore
+for i in range(1, n + 1):
+	print(i)
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Somma di N numeri}
+\begin{lstlisting}
+# Chiedo all'utente quanti numeri vuole sommare
+N = int(input("Quanti numeri vuoi sommare? "))
+
+# Inizializzo la variabile somma a 0
+somma = 0
+
+# Eseguo un ciclo che si ripete N volte
+for i in range(N):
+	# Ad ogni iterazione chiedo un numero all'utente
+	numero = float(input("Inserisci un numero: "))
+	# Aggiungo il numero alla somma totale
+	somma += numero
+
+# Alla fine del ciclo stampo la somma complessiva
+print("La somma dei numeri inseriti e':", somma)
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Numero Positivo}
+\begin{lstlisting}
+# Chiedo all'utente di inserire un numero positivo
+n = int(input("Inserisci un numero positivo: "))
+
+# Continuo a chiedere il numero finche' non e' positivo
+while n <= 0:
+	print("Errore: il numero deve essere positivo.")
+	n = int(input("Inserisci di nuovo un numero positivo: "))
+
+# Quando il numero e' valido, lo comunico all'utente
+print("Hai inserito un numero positivo valido:", n)
+
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Calcolo della Media}
+VERSIONE CON CICLO WHILE
+\begin{lstlisting}
+# Programma per calcolare la media aritmetica
+# Inserendo 0 si termina l'inserimento dei numeri
+
+somma = 0       # Variabile per accumulare la somma dei numeri
+conteggio = 0   # Variabile per contare quanti numeri sono stati inseriti
+
+# Chiedo all'utente di inserire un numero
+numero = float(input("Inserisci un numero (0 per terminare): "))
+
+# Continuo finche' il numero non e' 0
+while numero != 0:
+	somma += numero
+	conteggio += 1
+	numero = float(input("Inserisci un numero (0 per terminare): "))
+
+# Calcolo e stampo la media solo se sono stati inseriti numeri validi
+if conteggio > 0:
+	media = somma / conteggio
+	print("La media dei numeri inseriti e':", media)
+else:
+	print("Nessun numero inserito, impossibile calcolare la media.")
+\end{lstlisting}
+
+VERSIONE CON CICLO FOR
+\begin{lstlisting}
+# Programma per calcolare la media aritmetica
+# L'utente decide quanti numeri inserire
+
+# Chiedo quanti numeri inserira' l'utente
+n = int(input("Quanti numeri vuoi inserire? "))
+
+somma = 0
+
+# Uso un ciclo for per leggere n numeri
+for i in range(n):
+	numero = float(input(f"Inserisci il numero {i+1}: "))
+	somma += numero
+
+# Calcolo e stampo la media
+if n > 0:
+	media = somma / n
+	print("La media dei numeri inseriti e': ", media)
+else:
+	print("Numero di elementi non valido.")
+
+\end{lstlisting}
+
+\newpage
+\subsubsection{Fattoriale}
+
+\begin{lstlisting}
+# Programma per calcolare il fattoriale di un numero
+
+# Chiedo all'utente di inserire un numero intero positivo
+N = int(input("Inserisci un numero intero positivo: "))
+
+# Controllo che il numero sia positivo
+# Se non lo e', continuo a chiederlo
+while N < 0:
+	N = int(input("Il numero deve essere positivo. Riprova: "))
+
+# Inizializzo la variabile fattoriale a 1
+# (perche' 0! e 1! valgono 1)
+fattoriale = 1
+
+# Uso un ciclo for per moltiplicare tutti i numeri da 1 a N
+for i in range(1, N + 1):
+	fattoriale *= i
+	# Questo e' come dire fattoriale = fattoriale * i
+	# Al primo giro fara' fattoriale = 1 * 1
+	# Al secondo giro fara' fattoriale = 1 * 2
+	# Al terzo giro fara' fattoriale = 2 * 3
+	# Al quarto giro fara' fattoriale = 6 * 4 e cosi' via
+	
+# Stampo il risultato finale
+print("Il fattoriale di", N, "e':", fattoriale)
+
+\end{lstlisting}
+
+\newpage
+\subsubsection{Tabellina}
+
+\begin{lstlisting}
+# Chiedo all'utente di inserire un numero intero positivo
+n = int(input("Inserisci un numero intero positivo: "))
+
+# Ciclo per calcolare e stampare i prodotti da 1 a 10
+for i in range(1, 11):
+	print(n, "x", i, "=", n * i)
+
+\end{lstlisting}
+
+
+\subsubsection{Fibonacci}
+
+\begin{lstlisting}
+n = int(input("Inserire n: "))
+
+a = 1
+b = 1
+
+for i in range(n):
+	temp = a + b
+	a = b
+	b = temp
+	print(a, end=" ")
+
+\end{lstlisting}
+
+
+
+
+
+
+
+
+
+
+
+\newpage
+\subsection{Strutture Miste}
+
+\subsubsection{Divisori di un numero}
+
+\begin{lstlisting}
+# Programma che calcola tutti i divisori di un numero
+
+# Chiedo all'utente di inserire un numero intero positivo
+n = int(input("Inserisci un numero intero positivo: "))
+
+# Controllo che il numero sia positivo
+while n <= 0:
+	n = int(input("Il numero deve essere positivo. Riprova: "))
+
+print("I divisori di", n, "sono:")
+
+# Un divisore di n e' un numero i tale che n % i == 0
+for i in range(1, n + 1):
+	if n % i == 0:
+	print(i)
+
+\end{lstlisting}
+
+\newpage
+\subsubsection{Numeri Primi}
+\begin{lstlisting}
+# Programma che verifica se un numero e' primo
+	
+# Chiedo all'utente di inserire un numero intero positivo
+n = int(input("Inserisci un numero intero positivo: "))
+
+# Controllo che il numero sia positivo
+while n <= 0:
+	n = int(input("Il numero deve essere positivo. Riprova: "))
+	
+# Controllo se il numero e' maggiore di 1
+if n == 1:
+	print("1 non e' un numero primo")
+else:
+	primo = True  # assumiamo che il numero sia primo
+
+for i in range(2, n):  # verifico i possibili divisori da 2 a n-1
+	if n % i == 0:
+		primo = False
+		break  # basta trovare un divisore per sapere che non e' primo
+	
+# Stampo il risultato
+if primo: # Equivalente a scrivere if primo == True
+	print(n, "e' un numero primo")
+else:
+	print(n, "non e' un numero primo")
+	
+\end{lstlisting}
+
+\newpage
+\subsubsection{Gioco "Indovina un numero"}
+
+\begin{lstlisting}
+# Gioco "Indovina un numero"
+
+# Primo utente inserisce il numero segreto
+numero_segreto = int(input("Inserisci il numero segreto (tra 1 e 100): "))
+
+print("Indovina il numero!")
+
+# Inizializzo il numero di tentativi
+tentativo = 1
+max_tentativi = 10
+indovinato = False  # Flag per sapere se il numero e' stato indovinato
+
+# Ciclo while finche' non si superano i tentativi massimi e non si indovina
+while tentativo <= max_tentativi and not indovinato:
+	# Secondo utente inserisce il numero ipotizzato
+	ipotesi = int(input(f"Tentativo numero {tentativo}: "))
+
+	# Controllo se il numero e' corretto
+	if ipotesi == numero_segreto:
+		print("Esatto!")
+		indovinato = True
+	elif ipotesi < numero_segreto:
+		print("Troppo basso")
+	else:
+		print("Troppo alto")
+
+	tentativo += 1  # Passo al tentativo successivo
+
+# Se non e' stato indovinato entro 10 tentativi
+if not indovinato: # Potevo anche scrivere if indovinato == False
+	print("Hai perso")
+
+
+\end{lstlisting}
+	
+\end{document}

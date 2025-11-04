@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.4.10"/>
+        <attribute name="authors" value="Anton"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-23 12:18:38 "/>
+        <attribute name="created" value="QW50b247TVNJOzIwMjUtMTAtMjM7IjA4OjMxOjIyICI7MTkzMQ=="/>
+        <attribute name="edited" value="QW50b247TVNJOzIwMjUtMTAtMjM7IjEyOjE4OjM4ICI7MTsyMDQ2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, i, resto, contatore" type="Integer" array="False" size=""/>
+            <assign variable="contatore" expression="0"/>
+            <output expression="&quot;Inserire un numero per scoprire i suoi divisori: &quot;" newline="True"/>
+            <input variable="numero"/>
+            <while expression="numero &lt;= 0">
+                <output expression="&quot;Inserire un numero intero positivo :&quot;" newline="True"/>
+                <input variable="numero"/>
+            </while>
+            <for variable="i" start="1" end="numero" direction="inc" step="1">
+                <assign variable="resto" expression="numero%i"/>
+                <if expression="resto == 0">
+                    <then>
+                        <output expression="numero &amp; &quot;&#232; divisibile per &quot; &amp; i" newline="True"/>
+                        <assign variable="contatore" expression="contatore + 1"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <output expression="&quot;Il numero di divisori &#232;: &quot; &amp; contatore" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

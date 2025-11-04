@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="1.3.1"/>
+        <attribute name="authors" value="Anton"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-10-16 09:46:25 "/>
+        <attribute name="created" value="QW50b247TVNJOzIwMjUtMTAtMTY7IjA5OjA0OjM1ICI7MTkzOA=="/>
+        <attribute name="edited" value="QW50b247TVNJOzIwMjUtMTAtMTY7IjA5OjQ2OjI1ICI7MjsyMDUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, risultato" type="Integer" array="False" size=""/>
+            <output expression="&quot;Inserire un numero naturale: &quot;" newline="False"/>
+            <input variable="n"/>
+            <while expression="n &lt;= 0">
+                <output expression="&quot;Errore: inserire un numero maggiore di 0: &quot;" newline="True"/>
+                <input variable="n"/>
+            </while>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <assign variable="risultato" expression="i * n"/>
+                <output expression="n &amp; &quot; x &quot; &amp; i &amp; &quot; = &quot; &amp; risultato" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
