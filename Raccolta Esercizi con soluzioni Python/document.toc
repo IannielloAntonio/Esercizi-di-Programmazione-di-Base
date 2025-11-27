@@ -38,6 +38,10 @@
 \contentsline {subsubsection}{\numberline {1.4.1}Divisori di un numero}{9}{}%
 \contentsline {subsubsection}{\numberline {1.4.2}Numeri Primi}{9}{}%
 \contentsline {subsubsection}{\numberline {1.4.3}Gioco "Indovina un numero"}{9}{}%
+\contentsline {subsection}{\numberline {1.5}Liste}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}somma}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.2}Maggiorenni}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.3}Massimo}{9}{}%
 \contentsline {section}{\numberline {2}Soluzioni}{10}{}%
 \contentsline {subsection}{\numberline {2.1}Sequenza}{10}{}%
 \contentsline {subsubsection}{\numberline {2.1.1}Quadrato e cubo}{10}{}%
@@ -76,3 +80,5 @@
 \contentsline {subsubsection}{\numberline {2.4.1}Divisori di un numero}{39}{}%
 \contentsline {subsubsection}{\numberline {2.4.2}Numeri Primi}{40}{}%
 \contentsline {subsubsection}{\numberline {2.4.3}Gioco "Indovina un numero"}{41}{}%
+\contentsline {subsection}{\numberline {2.5}Liste}{42}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Somma}{42}{}%
