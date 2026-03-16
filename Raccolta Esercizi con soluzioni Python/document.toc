@@ -39,46 +39,58 @@
 \contentsline {subsubsection}{\numberline {1.4.2}Numeri Primi}{9}{}%
 \contentsline {subsubsection}{\numberline {1.4.3}Gioco "Indovina un numero"}{9}{}%
 \contentsline {subsection}{\numberline {1.5}Liste}{9}{}%
-\contentsline {subsubsection}{\numberline {1.5.1}somma}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}Somma}{9}{}%
 \contentsline {subsubsection}{\numberline {1.5.2}Maggiorenni}{9}{}%
 \contentsline {subsubsection}{\numberline {1.5.3}Massimo}{9}{}%
-\contentsline {section}{\numberline {2}Soluzioni}{10}{}%
-\contentsline {subsection}{\numberline {2.1}Sequenza}{10}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Quadrato e cubo}{10}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}Conversione minuti in ore e minuti}{11}{}%
-\contentsline {subsubsection}{\numberline {2.1.3}Conversione temperature}{12}{}%
-\contentsline {subsubsection}{\numberline {2.1.4}Somma, differenza e prodotto}{13}{}%
-\contentsline {subsubsection}{\numberline {2.1.5}Area e perimetro di un rettangolo}{14}{}%
-\contentsline {subsubsection}{\numberline {2.1.6}Area e circonferenza di un cerchio}{15}{}%
-\contentsline {subsubsection}{\numberline {2.1.7}Prezzo totale con IVA}{16}{}%
-\contentsline {subsubsection}{\numberline {2.1.8}Sconto}{17}{}%
-\contentsline {subsubsection}{\numberline {2.1.9}Parallelepipedo}{18}{}%
-\contentsline {subsubsection}{\numberline {2.1.10}Velocita' media}{19}{}%
-\contentsline {subsubsection}{\numberline {2.1.11}Caramelle}{20}{}%
-\contentsline {subsubsection}{\numberline {2.1.12}Moto Accelerato Uniforme}{21}{}%
-\contentsline {subsection}{\numberline {2.2}Selezione}{22}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Positivo o Negativo}{22}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Valore Assoluto}{23}{}%
-\contentsline {subsubsection}{\numberline {2.2.3}Maggiorenne}{24}{}%
-\contentsline {subsubsection}{\numberline {2.2.4}Multiplo}{25}{}%
-\contentsline {subsubsection}{\numberline {2.2.5}Conversione Temperature}{26}{}%
-\contentsline {subsubsection}{\numberline {2.2.6}Uomo sulla Luna}{27}{}%
-\contentsline {subsubsection}{\numberline {2.2.7}Equazioni di Secondo Grado}{28}{}%
-\contentsline {subsubsection}{\numberline {2.2.8}Valutazione del voto}{29}{}%
-\contentsline {subsubsection}{\numberline {2.2.9}Massimo tra tre numeri}{30}{}%
-\contentsline {subsubsection}{\numberline {2.2.10}Biglietto VIP}{31}{}%
-\contentsline {subsubsection}{\numberline {2.2.11}Re e Regina}{32}{}%
-\contentsline {subsection}{\numberline {2.3}Iterazioni}{33}{}%
-\contentsline {subsubsection}{\numberline {2.3.1}Primi $n$ numeri}{33}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Somma di N numeri}{34}{}%
-\contentsline {subsubsection}{\numberline {2.3.3}Numero Positivo}{35}{}%
-\contentsline {subsubsection}{\numberline {2.3.4}Calcolo della Media}{36}{}%
-\contentsline {subsubsection}{\numberline {2.3.5}Fattoriale}{37}{}%
-\contentsline {subsubsection}{\numberline {2.3.6}Tabellina}{38}{}%
-\contentsline {subsubsection}{\numberline {2.3.7}Fibonacci}{38}{}%
-\contentsline {subsection}{\numberline {2.4}Strutture Miste}{39}{}%
-\contentsline {subsubsection}{\numberline {2.4.1}Divisori di un numero}{39}{}%
-\contentsline {subsubsection}{\numberline {2.4.2}Numeri Primi}{40}{}%
-\contentsline {subsubsection}{\numberline {2.4.3}Gioco "Indovina un numero"}{41}{}%
-\contentsline {subsection}{\numberline {2.5}Liste}{42}{}%
-\contentsline {subsubsection}{\numberline {2.5.1}Somma}{42}{}%
+\contentsline {subsubsection}{\numberline {1.5.4}Ricerca di un elemento}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.5}Shift di una Lista}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.6}Shift di una Lista 2.0}{10}{}%
+\contentsline {subsubsection}{\numberline {1.5.7}Conta le occorrenze}{10}{}%
+\contentsline {subsubsection}{\numberline {1.5.8}Conta l'elemento che si ripete più volte}{10}{}%
+\contentsline {section}{\numberline {2}Soluzioni}{12}{}%
+\contentsline {subsection}{\numberline {2.1}Sequenza}{12}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Quadrato e cubo}{12}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Conversione minuti in ore e minuti}{13}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Conversione temperature}{14}{}%
+\contentsline {subsubsection}{\numberline {2.1.4}Somma, differenza e prodotto}{15}{}%
+\contentsline {subsubsection}{\numberline {2.1.5}Area e perimetro di un rettangolo}{16}{}%
+\contentsline {subsubsection}{\numberline {2.1.6}Area e circonferenza di un cerchio}{17}{}%
+\contentsline {subsubsection}{\numberline {2.1.7}Prezzo totale con IVA}{18}{}%
+\contentsline {subsubsection}{\numberline {2.1.8}Sconto}{19}{}%
+\contentsline {subsubsection}{\numberline {2.1.9}Parallelepipedo}{20}{}%
+\contentsline {subsubsection}{\numberline {2.1.10}Velocita' media}{21}{}%
+\contentsline {subsubsection}{\numberline {2.1.11}Caramelle}{22}{}%
+\contentsline {subsubsection}{\numberline {2.1.12}Moto Accelerato Uniforme}{23}{}%
+\contentsline {subsection}{\numberline {2.2}Selezione}{24}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Positivo o Negativo}{24}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Valore Assoluto}{25}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Maggiorenne}{26}{}%
+\contentsline {subsubsection}{\numberline {2.2.4}Multiplo}{27}{}%
+\contentsline {subsubsection}{\numberline {2.2.5}Conversione Temperature}{28}{}%
+\contentsline {subsubsection}{\numberline {2.2.6}Uomo sulla Luna}{29}{}%
+\contentsline {subsubsection}{\numberline {2.2.7}Equazioni di Secondo Grado}{30}{}%
+\contentsline {subsubsection}{\numberline {2.2.8}Valutazione del voto}{31}{}%
+\contentsline {subsubsection}{\numberline {2.2.9}Massimo tra tre numeri}{32}{}%
+\contentsline {subsubsection}{\numberline {2.2.10}Biglietto VIP}{33}{}%
+\contentsline {subsubsection}{\numberline {2.2.11}Re e Regina}{34}{}%
+\contentsline {subsection}{\numberline {2.3}Iterazioni}{35}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Primi $n$ numeri}{35}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Somma di N numeri}{36}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Numero Positivo}{37}{}%
+\contentsline {subsubsection}{\numberline {2.3.4}Calcolo della Media}{38}{}%
+\contentsline {subsubsection}{\numberline {2.3.5}Fattoriale}{39}{}%
+\contentsline {subsubsection}{\numberline {2.3.6}Tabellina}{40}{}%
+\contentsline {subsubsection}{\numberline {2.3.7}Fibonacci}{40}{}%
+\contentsline {subsection}{\numberline {2.4}Strutture Miste}{41}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Divisori di un numero}{41}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Numeri Primi}{42}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}Gioco "Indovina un numero"}{43}{}%
+\contentsline {subsection}{\numberline {2.5}Liste}{44}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}Somma}{44}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}Maggiorenni}{45}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}Massimo}{46}{}%
+\contentsline {subsubsection}{\numberline {2.5.4}Ricerca di un elemento}{47}{}%
+\contentsline {subsubsection}{\numberline {2.5.5}Shift di una lista}{48}{}%
+\contentsline {subsubsection}{\numberline {2.5.6}Shift di una lista 2.0}{49}{}%
+\contentsline {subsubsection}{\numberline {2.5.7}Conta le occorrenze}{50}{}%
+\contentsline {subsubsection}{\numberline {2.5.8}Conta l'elemento che si ripete più volte}{51}{}%

@@ -264,7 +264,7 @@ Ad esempio:
 	
 	\subsection{Liste}
 	
-	\subsubsection{somma}
+	\subsubsection{Somma}
 	Scrivi un programma che data una lista di numeri, calcoli la somma di tutti gli elementi.
 	
 	
@@ -276,14 +276,83 @@ Ad esempio:
 	\subsubsection{Massimo}
 	Dati i numeri in una lista, trova il valore massimo senza usare max().
 	
+	\subsubsection{Ricerca di un elemento}
+	Scrivere un programma che riceve in ingresso una sequenza di N numeri
+	interi con N scelto dall'utente. 
+	Terminato l’inserimento della sequenza di numeri, l’utente inserisce un valore di riferimento. Il programma deve indicare se tale
+	valore di riferimento è contenuto nel vettore.
+	
+	
+	\subsubsection{Shift di una Lista}
+	
+	Scrivere un programma che riceve in ingresso una sequenza di N numeri, con N scelto dall'utente. Suddetti numeri devono essere salvati in una lista.
+	
+	Il programma deve eseguire le seguenti operazioni:
+	
+\begin{itemize}
+	\item Stampare la lista
+	\item Eseguire uno spostamento (shift) a sinistra di una posizione del contenuto del vettore.
+	Pertanto ogni elemento del vettore deve assumere il valore dell’elemento immediatamente successivo all’interno del vettore. L’elemento di indice N-1 deve assumere il
+	valore zero.
+	Ad esempio: \\ 
+	la lista 1 10 15 18 \\
+	deve diventare 10 15 18 0
+	\item Il programma visualizza il vettore ottenuto.
+\end{itemize}
+	
+	\subsubsection{Shift di una Lista 2.0}
+	
+		Scrivere un programma che riceve in ingresso una sequenza di N numeri, con N scelto dall'utente. Suddetti numeri devono essere salvati in una lista.
+	
+	Il programma deve eseguire le seguenti operazioni:
+	
+	\begin{itemize}
+		\item Stampare la lista
+		\item Eseguire uno spostamento (shift) a sinistra di una posizione del contenuto del vettore.
+		Pertanto ogni elemento del vettore deve assumere il valore dell’elemento immediatamente successivo all’interno del vettore. L’elemento di indice $N-1$ deve assumere il
+		valore dell'elemento di indice $0$.
+		Ad esempio: \\ 
+		la lista 1 10 15 18 \\
+		deve diventare 10 15 18 1
+		\item Il programma visualizza il vettore ottenuto.
+	\end{itemize}
 	
 	
 	
+	\subsubsection{Conta le occorrenze}
+	Scrivere un programma in Python che conti quante volte un determinato elemento compare all'interno di una lista.
 	
+	Il programma deve:
+	\begin{itemize}
+		\item chiedere all’utente di inserire una lista di numeri interi separati da spazio;
+		\item chiedere all’utente di inserire un numero da cercare nella lista;
+		\item contare il numero di occorrenze del valore inserito;
+		\item stampare a schermo il risultato.
+	\end{itemize}
 	
+	\textbf{Esempio di esecuzione:}
+	\begin{verbatim}
+		Inserisci una lista di numeri: 2 5 3 2 7 2 5
+		Inserisci il numero da cercare: 2
+		Il numero 2 compare 3 volte nella lista.
+	\end{verbatim}
 	
+	\subsubsection{Conta l'elemento che si ripete più volte}
+	Scrivere un programma in Python che determini quale elemento compare il maggior numero di volte all'interno di una lista di numeri interi.
 	
+	Il programma deve:
+	\begin{itemize}
+		\item chiedere all’utente di inserire una lista di numeri interi separati da spazio;
+		\item analizzare la lista e determinare l’elemento che si ripete più volte;
+		\item stampare a schermo l’elemento trovato e il numero di occorrenze.
+	\end{itemize}
 	
+	\textbf{Esempio di esecuzione:}
+	\begin{verbatim}
+		Inserisci una lista di numeri: 4 2 7 2 5 2 7
+		Elemento più frequente: 2
+		Numero di occorrenze: 3
+	\end{verbatim}
 	
 	
 	
@@ -1073,17 +1142,178 @@ if not indovinato: # Potevo anche scrivere if indovinato == False
 \subsubsection{Somma}
 
 \begin{lstlisting}
-	# Lista di numeri (puoi modificarla o chiedere all'utente di inserirla)
-	numeri = [2, 5, 7, 3, 10]
+# Lista di numeri
+numeri = [2, 5, 7, 3, 10]
 	
-	# Calcolo della somma
-	somma = 0
-	for numero in numeri:
-		somma += numero
+# Calcolo della somma
+somma = 0
+for numero in numeri:
+	somma += numero
 	
-	# Stampa del risultato
-	print("La somma di tutti gli elementi e':", somma)
+# Stampa del risultato
+print("La somma di tutti gli elementi e':", somma)
 \end{lstlisting}
+	
+	
+\newpage
+
+\subsubsection{Maggiorenni}
+
+\begin{lstlisting}
+lista = [12, 18, 25, 7, 30]
+	
+count = 0
+for numero in lista:
+	if numero >= 18:
+		count += 1
+	
+print("I maggiorenni sono:", count)
+\end{lstlisting}
+
+
+\newpage
+\subsubsection{Massimo}
+
+\begin{lstlisting}
+lista = [3, 10, 6, 2, 99, 4]
+
+massimo = lista[0]
+for numero in lista:
+	if numero > massimo:
+		massimo = numero
+
+print("Il valore massimo e':", massimo)
+	\end{lstlisting}
+	
+	
+	\newpage
+\subsubsection{Ricerca di un elemento}
+
+	\begin{lstlisting}
+N = int(input("Quanti numeri vuoi inserire? "))
+lista = [] # viene creata una lista vuota
+		
+for i in range(N):
+	numero = int(input("Inserisci un numero: "))
+	lista.append(numero) # la funzione append permette di inserire la variabile numero dopo l'ultimo elemento
+		
+valore = int(input("Inserisci il valore da cercare: "))
+trovato = False
+
+for elemento in lista:
+	if elemento == valore:
+		trovato = True
+		
+if trovato:
+	print("Il valore e' presente nella lista.")
+else:
+	print("Il valore NON e' presente nella lista.")
+	\end{lstlisting}
+	
+		
+\newpage
+	
+	
+\subsubsection{Shift di una lista}
+
+\begin{lstlisting}
+N = int(input("Inserisci il numero di elementi: "))
+	
+lista = []
+	
+for i in range(N):
+	numero = int(input(f"Inserisci il numero {i + 1}: "))
+	lista.append(numero)
+	
+print("Lista originale:", lista)
+	
+# Shift a sinistra
+for i in range(N - 1):
+	lista[i] = lista[i + 1]
+
+lista[N - 1] = 0
+	
+print("Lista dopo lo shift:", lista)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Shift di una lista 2.0}
+\begin{lstlisting}
+N = int(input("Inserisci il numero di elementi: "))
+
+lista = []
+
+for i in range(N):
+	numero = int(input(f"Inserisci il numero {i + 1}: "))
+	lista.append(numero)
+
+print("Lista originale:", lista)
+
+primo = lista[0]
+
+for i in range(N - 1):
+	lista[i] = lista[i + 1]
+
+lista[N - 1] = primo
+
+print("Lista dopo lo shift:", lista)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Conta le occorrenze}
+\begin{lstlisting}
+N = int(input("Inserisci il numero di elementi: "))
+
+lista = []
+
+for i in range(N):
+	numero = int(input(f"Inserisci il numero {i + 1}: "))
+	lista.append(numero)
+
+valore = int(input("Inserisci il numero da cercare: "))
+
+contatore = 0
+
+for x in lista:
+	if x == valore:
+		contatore += 1
+
+print("Il numero", valore, "compare", contatore, "volte nella lista.")
+\end{lstlisting}
+\newpage
+
+\subsubsection{Conta l'elemento che si ripete più volte}
+\begin{lstlisting}
+N = int(input("Inserisci il numero di elementi: "))
+	
+lista = []
+	
+for i in range(N):
+	numero = int(input(f"Inserisci il numero {i + 1}: "))
+	lista.append(numero)
+	
+max_elemento = lista[0]
+max_contatore = 0
+	
+for i in range(N):
+	contatore = 0
+	for j in range(N):
+		if lista[j] == lista[i]:
+			contatore += 1
+	
+	if contatore > max_contatore:
+		max_contatore = contatore
+		max_elemento = lista[i]
+	
+print("Elemento piu' frequente:", max_elemento)
+print("Numero di occorrenze:", max_contatore)
+\end{lstlisting}
+
+
+
+
 	
 \end{document}
 
