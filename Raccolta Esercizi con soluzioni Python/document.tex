@@ -1490,6 +1490,565 @@ print("Numero di occorrenze:", max_contatore)
 
 
 
+
+\newpage
+
+\subsection{Funzioni}
+
+\subsubsection{Somma}
+
+\begin{lstlisting}
+	# Definizione della funzione che somma due numeri
+	def somma(a, b):
+		# Restituisce la somma dei due numeri
+		return a + b
+	
+	
+	# Programma principale
+	
+	# Chiediamo all'utente di inserire il primo numero
+	numero1 = int(input("Inserisci il primo numero: "))
+	
+	# Chiediamo all'utente di inserire il secondo numero
+	numero2 = int(input("Inserisci il secondo numero: "))
+	
+	# Chiamiamo la funzione somma passando i due numeri
+	risultato = somma(numero1, numero2)
+	
+	# Stampiamo il risultato
+	print("La somma e':", risultato)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Calcolatrice}
+
+
+\begin{lstlisting}
+	# Definizione delle funzioni della calcolatrice
+	
+	def somma(a, b):
+		# Restituisce la somma
+		return a + b
+	
+	def differenza(a, b):
+		# Restituisce la differenza
+		return a - b
+		
+	def prodotto(a, b):
+		# Restituisce il prodotto
+		return a * b
+	
+	def divisione(a, b):
+		# Controllo per evitare divisione per zero
+		if b == 0:
+			return "Errore: divisione per zero"
+		return a / b
+	
+	
+	# Programma principale
+	
+	# Chiediamo i numeri all'utente
+	numero1 = float(input("Inserisci il primo numero: "))
+	numero2 = float(input("Inserisci il secondo numero: "))
+	
+	# Mostriamo il menu delle operazioni
+	print("\nScegli l'operazione:")
+	print("1 - Somma")
+	print("2 - Differenza")
+	print("3 - Prodotto")
+	print("4 - Divisione")
+	
+	# Leggiamo la scelta dell'utente
+	scelta = input("Inserisci il numero dell'operazione: ")
+	
+	# Eseguiamo l'operazione scelta
+	if scelta == "1":
+		risultato = somma(numero1, numero2)
+	elif scelta == "2":
+		risultato = differenza(numero1, numero2)
+	elif scelta == "3":
+		risultato = prodotto(numero1, numero2)
+	elif scelta == "4":
+		risultato = divisione(numero1, numero2)
+	else:
+		risultato = "Operazione non valida"
+	
+	# Stampiamo il risultato
+	print("Risultato:", risultato)
+\end{lstlisting}
+
+
+\newpage
+
+\subsubsection{Saluto personale}
+
+\begin{lstlisting}
+	# Definizione della funzione
+	def saluta(nome):
+		# Stampa il messaggio di saluto usando il nome passato come parametro
+		print("Ciao,", nome + "!")
+	
+	
+	# Programma principale
+	
+	# Chiediamo all'utente di inserire il proprio nome
+	nome_utente = input("Inserisci il tuo nome: ")
+	
+	# Chiamiamo la funzione passando il nome inserito
+	saluta(nome_utente)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Numero pari o dispari}
+
+\begin{lstlisting}
+	def pari(n):
+		# Ritorna True se n e' pari, False altrimenti
+		if(n % 2 == 0):
+			return True
+		else:
+			return False
+	
+	numero = int(input("Inserisci un numero: "))
+	
+	if pari(numero):
+		print("Il numero e' pari")
+	else:
+		print("Il numero e' dispari")
+\end{lstlisting}
+
+\newpage
+
+
+\subsubsection{Calcolo del quadrato}
+
+\begin{lstlisting}
+	def quadrato(x):
+		# Ritorna il quadrato di x
+		return x ** 2
+	
+	numero = float(input("Inserisci un numero: "))
+	print("Il quadrato e':", quadrato(numero))
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Calcolo del cubo}
+
+\begin{lstlisting}
+	def cubo(x):
+		# Ritorna il cubo di x
+		return x ** 3
+	
+	numero = float(input("Inserisci un numero: "))
+	print("Il cubo e':", cubo(numero))
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Media di due numeri}
+
+\begin{lstlisting}
+	def media(a, b):
+		# Ritorna la media di due numeri
+		return (a + b) / 2
+	
+	num1 = float(input("Inserisci il primo numero: "))
+	num2 = float(input("Inserisci il secondo numero: "))
+	
+	print("La media e':", media(num1, num2))
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Conversione da Celsius a Fahrenheit}
+
+\begin{lstlisting}
+	def celsius_to_fahrenheit(c):
+		# Formula di conversione
+		return (9/5) * c + 32
+	
+	celsius = float(input("Inserisci la temperatura in Celsius: "))
+	print("Temperatura in Fahrenheit:", celsius_to_fahrenheit(celsius))
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Calcolo del perimetro di un rettangolo}
+
+\begin{lstlisting}
+	def perimetro(l, h):
+		# Ritorna il perimetro del rettangolo
+		return 2 * (l + h)
+	
+	lunghezza = float(input("Inserisci la lunghezza: "))
+	altezza = float(input("Inserisci l'altezza: "))
+	
+	print("Il perimetro e':", perimetro(lunghezza, altezza))
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Velocità media}
+
+\begin{lstlisting}
+	def velocita_media(d, t):
+		# Controllo per evitare divisione per zero
+		if t == 0:
+			return "Errore: tempo non puo' essere zero"
+		return d / t
+	
+	distanza = float(input("Inserisci lo spazio (in metri): "))
+	tempo = float(input("Inserisci il tempo (in secondi): "))
+	
+	print("La velocita' media e':", velocita_media(distanza, tempo), "m/s")
+\end{lstlisting}
+
+\newpage
+\subsubsection{Energia cinetica}
+
+\begin{lstlisting}
+	def energia_cinetica(m, v):
+		# Formula: Ek = 1/2 * m * v^2
+		return 0.5 * m * (v ** 2)
+	
+	massa = float(input("Inserisci la massa (kg): "))
+	velocita = float(input("Inserisci la velocita' (m/s): "))
+	
+	print("Energia cinetica:", energia_cinetica(massa, velocita), "J")
+\end{lstlisting}
+
+\newpage
+\subsubsection{Forza di gravità}
+
+\begin{lstlisting}
+	def forza_gravitazionale(m1, m2, r):
+		# Costante gravitazionale
+		G = 6.674e-11
+		
+		# Controllo per evitare divisione per zero
+		if r == 0:
+			return "Errore: distanza non puo' essere zero"
+		
+		return G * m1 * m2 / (r ** 2)
+	
+	m1 = float(input("Inserisci la prima massa (kg): "))
+	m2 = float(input("Inserisci la seconda massa (kg): "))
+	r = float(input("Inserisci la distanza (m): "))
+	
+	print("Forza gravitazionale:", forza_gravitazionale(m1, m2, r), "N")
+\end{lstlisting}
+
+\newpage
+\subsubsection{Somma dei primi N numeri}
+
+\begin{lstlisting}
+	def somma_primi(N):
+		# Somma dei primi N numeri interi positivi
+		somma = 0
+		for i in range(1, N + 1):
+			somma += i
+		return somma
+	
+	N = int(input("Inserisci N: "))
+	print("La somma e':", somma_primi(N))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Tabellina di un numero}
+
+\begin{lstlisting}
+	def tabellina(n):
+		# Stampa la tabellina da 1 a 10
+		for i in range(1, 11):
+			print(n, "x", i, "=", n * i)
+	
+	numero = int(input("Inserisci un numero: "))
+	tabellina(numero)
+\end{lstlisting}
+
+\newpage
+\subsubsection{Prodotto di una lista}
+
+\begin{lstlisting}
+	def prodotto_lista(lista):
+		# Calcola il prodotto degli elementi
+		prodotto = 1
+		for num in lista:
+			prodotto *= num
+		return prodotto
+	
+	lista = []
+	
+	# Inserimento di 5 numeri
+	for i in range(5):
+		numero = float(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("Il prodotto e':", prodotto_lista(lista))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Contatore di numeri pari}
+
+\begin{lstlisting}
+	def conta_pari(lista):
+		# Conta quanti numeri pari ci sono
+		count = 0
+		for num in lista:
+			if num % 2 == 0:
+				count += 1
+		return count
+	
+	lista = []
+	
+	# Inserimento di 5 numeri
+	for i in range(5):
+		numero = int(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("Numeri pari:", conta_pari(lista))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Fattoriale di un numero}
+
+\begin{lstlisting}
+	def fattoriale(n):
+		# Calcola il fattoriale di n
+		risultato = 1
+		for i in range(1, n + 1):
+			risultato *= i
+		return risultato
+	
+	numero = int(input("Inserisci un numero: "))
+	print("Il fattoriale e':", fattoriale(numero))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Somma dei numeri dispari in una lista}
+
+\begin{lstlisting}
+	def somma_dispari(lista):
+		somma = 0
+		for num in lista:
+			if num % 2 != 0:
+				somma += num
+		return somma
+	
+	lista = []
+	for i in range(5):
+		numero = int(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("Somma dei dispari:", somma_dispari(lista))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Trova il massimo in una lista}
+
+\begin{lstlisting}
+	def massimo(lista):
+		max_val = lista[0]
+		for num in lista:
+			if num > max_val:
+				max_val = num
+		return max_val
+	
+	N = int(input("Inserisci la quantita' di numeri: "))
+	lista = []
+	for i in range(N):
+		numero = float(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("Il massimo e':", massimo(lista))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Conta vocali in una parola}
+
+\begin{lstlisting}
+	def conta_vocali(parola):
+		vocali = "aeiou"
+		count = 0
+		for lettera in parola.lower():
+			if lettera in vocali:
+				count += 1
+		return count
+	
+	parola = input("Inserisci una parola: ")
+	print("Numero di vocali:", conta_vocali(parola))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Filtra numeri maggiori di N}
+
+\begin{lstlisting}
+	def filtra_maggiori(lista, N):
+		nuova_lista = []
+		for num in lista:
+			if num > N:
+				nuova_lista.append(num)
+		return nuova_lista
+	
+	n = int(input("Inserisci la quantita' di numeri: "))
+	lista = []
+	for i in range(n):
+		numero = int(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	N = int(input("Inserisci il valore di N: "))
+	print("Numeri maggiori di N:", filtra_maggiori(lista, N))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Lista dei quadrati}
+
+\begin{lstlisting}
+	def quadrati(lista):
+		nuova_lista = []
+		for num in lista:
+			nuova_lista.append(num ** 2)
+		return nuova_lista
+	
+	n = int(input("Inserisci la quantita' di numeri: "))
+	lista = []
+	for i in range(n):
+		numero = float(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("Lista dei quadrati:", quadrati(lista))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Statistiche su una lista}
+
+\begin{lstlisting}
+	def somma(lista):
+		s = 0
+		for num in lista:
+			s += num
+		return s
+	
+	def media(lista):
+		return somma(lista) / len(lista)
+	
+	def massimo(lista):
+		max_val = lista[0]
+		for num in lista:
+			if num > max_val:
+				max_val = num
+		return max_val
+	
+	def minimo(lista):
+		min_val = lista[0]
+		for num in lista:
+			if num < min_val:
+			min_val = num
+		return min_val
+	
+	lista = []
+	n = int(input("Quanti numeri vuoi inserire? "))
+	
+	for i in range(n):
+		numero = float(input("Inserisci un numero: "))
+		lista.append(numero)
+	
+	print("1 - Somma")
+	print("2 - Media")
+	print("3 - Massimo")
+	print("4 - Minimo")
+	
+	scelta = input("Scegli l'operazione: ")
+	
+	if scelta == "1":
+		print("Somma:", somma(lista))
+	elif scelta == "2":
+		print("Media:", media(lista))
+	elif scelta == "3":
+		print("Massimo:", massimo(lista))
+	elif scelta == "4":
+		print("Minimo:", minimo(lista))
+	else:
+		print("Scelta non valida")
+\end{lstlisting}
+
+\newpage
+\subsubsection{Gestione voti studenti}
+
+\begin{lstlisting}
+	def media_voti(lista):
+		return sum(lista) / len(lista)
+	
+	def voti_sufficienti(lista):
+		count = 0
+		for voto in lista:
+			if voto >= 6:
+				count += 1
+		return count
+	
+	def voti_insufficienti(lista):
+		count = 0
+		for voto in lista:
+			if voto < 6:
+				count += 1
+		return count
+	
+	voti = []
+	n = int(input("Quanti voti vuoi inserire? "))
+	
+	for i in range(n):
+		voto = float(input("Inserisci un voto: "))
+		voti.append(voto)
+	
+	print("Media:", media_voti(voti))
+	print("Voti sufficienti:", voti_sufficienti(voti))
+	print("Voti insufficienti:", voti_insufficienti(voti))
+\end{lstlisting}
+
+\newpage
+\subsubsection{Gioco: Indovina il numero}
+
+\begin{lstlisting}
+	import random
+	
+	def genera_numero():
+		return random.randint(1, 100)
+	
+	def chiedi_numero():
+		return int(input("Inserisci un numero: "))
+	
+	def controlla_numero(n_segreto, n_utente):
+		if n_utente > n_segreto:
+			print("Troppo alto")
+			return False
+		elif n_utente < n_segreto:
+			print("Troppo basso")
+			return False
+		else:
+			print("Esatto!")
+			return True
+	
+	numero_segreto = genera_numero()
+	
+	indovinato = False
+	while not indovinato:
+		numero = chiedi_numero()
+		indovinato = controlla_numero(numero_segreto, numero)
+\end{lstlisting}
+
+\newpage
+\subsubsection{Gioco: Caccia al cibo}
+
+\begin{lstlisting}
+	Provate a risolvere senza soluzione
+\end{lstlisting}
+
+
+
+
 	
 \end{document}
 
