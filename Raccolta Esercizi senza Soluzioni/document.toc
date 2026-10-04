@@ -38,3 +38,52 @@
 \contentsline {subsubsection}{\numberline {1.4.1}Divisori di un numero}{9}{}%
 \contentsline {subsubsection}{\numberline {1.4.2}Numeri Primi}{9}{}%
 \contentsline {subsubsection}{\numberline {1.4.3}Gioco "Indovina un numero"}{9}{}%
+\contentsline {subsection}{\numberline {1.5}Liste}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.1}Somma}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.2}Maggiorenni}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.3}Massimo}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.4}Ricerca di un elemento}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.5}Shift di una Lista}{9}{}%
+\contentsline {subsubsection}{\numberline {1.5.6}Shift di una Lista 2.0}{10}{}%
+\contentsline {subsubsection}{\numberline {1.5.7}Conta le occorrenze}{10}{}%
+\contentsline {subsubsection}{\numberline {1.5.8}Conta l'elemento che si ripete più volte}{10}{}%
+\contentsline {subsection}{\numberline {1.6}Matrici}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.1}Somma degli elementi di una matrice}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.2}Massimo di una matrice}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.3}Conta le occorenze}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.4}Somma degli elementi delle righe}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.5}Somma degli elementi delle colonne}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.6}Prodotto scalare}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.7}Diagonale principale}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.8}Temperature di una città}{12}{}%
+\contentsline {subsubsection}{\numberline {1.6.9}Vendite di un negozio}{13}{}%
+\contentsline {subsubsection}{\numberline {1.6.10}Consumi elettrici}{13}{}%
+\contentsline {subsubsection}{\numberline {1.6.11}Rendimento studenti}{14}{}%
+\contentsline {subsubsection}{\numberline {1.6.12}Parcheggio multipiano}{14}{}%
+\contentsline {subsection}{\numberline {1.7}Le funzioni}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.1}Somma}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.2}Calcolatrice}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.3}Saluto personale}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.4}Numero pari o dispari}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.5}Calcolo del quadrato}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.6}Calcolo del cubo}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.7}Media di due numeri}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.8}Conversione da Celsius a Fahrenheit}{15}{}%
+\contentsline {subsubsection}{\numberline {1.7.9}Calcolo del perimetro di un rettangolo}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.10}Velocità media}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.11}Energia cinetica}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.12}Forza di gravità}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.13}Somma dei primi N numeri}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.14}Tabellina di un numero}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.15}Prodotto di una lista}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.16}Contatore di numeri pari}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.17}Fattoriale di un numero}{16}{}%
+\contentsline {subsubsection}{\numberline {1.7.18}Somma dei numeri dispari in una lista}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.19}Trova il massimo in una lista}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.20}Conta vocali in una parola}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.21}Filtra numeri maggiori di N}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.22}Lista dei quadrati}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.23}Statistiche su una lista}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.24}Gestione voti studenti}{17}{}%
+\contentsline {subsubsection}{\numberline {1.7.25}Gioco: Indovina il numero}{18}{}%
+\contentsline {subsubsection}{\numberline {1.7.26}Gioco: Caccia al cibo}{18}{}%
