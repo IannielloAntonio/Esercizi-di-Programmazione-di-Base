@@ -264,6 +264,8 @@ Ad esempio:
 	
 	\subsection{Liste}
 	
+	
+	
 	\subsubsection{Somma}
 	Scrivi un programma che data una lista di numeri, calcoli la somma di tutti gli elementi.
 	
@@ -353,6 +355,140 @@ Ad esempio:
 		Elemento più frequente: 2
 		Numero di occorrenze: 3
 	\end{verbatim}
+	
+	\newpage
+	
+	\subsection{Matrici}
+
+	\subsubsection{Somma degli elementi di una matrice}
+	Data una matrice quadrata $n \times n$, con $n$ inserito dall'utente, stampare la somma di tutti gli elementi
+	
+	\subsubsection{Massimo di una matrice}
+	Data una matrice di dimensioni $n \times m$, con $n$ ed $m$ inseriti dall'utente, stampa il massimo elemento.
+	
+	\subsubsection{Conta le occorenze}
+	Scrivere un programma Python che conti quante volte il valore $x$ compare all'interno di una matrice $n \times m$ con $n$ ed $m$ chiesti in input all'utente.
+	
+	\subsubsection{Somma degli elementi delle righe}
+	Scrivere un programma Python che calcoli e visualizzi la somma degli elementi di ogni riga di una matrice $n \times m$ ($n$ ed $m$ chiesti in input all'utente)
+	 
+	\subsubsection{Somma degli elementi delle colonne}
+	Scrivere un programma Python che calcoli e visualizzi la somma degli elementi di ogni colonna di una matrice $n \times m$ ($n$ ed $m$ chiesti in input all'utente).
+	
+	\subsubsection{Prodotto scalare}
+	Scrivere un programma Python che permetta all'utente di inserire le dimensioni $n$ e $m$ e di costruire una matrice $n \times m$ inserendo gli elementi da tastiera.
+	
+	Successivamente, il programma deve richiedere l'inserimento di un numero $k$.
+	
+	Costruire una nuova matrice ottenuta moltiplicando ciascun elemento della matrice originale per $k$ e visualizzare la matrice risultante.
+		
+	\subsubsection{Diagonale principale}
+	
+	Scrivere un programma Python che permetta all'utente di inserire una matrice quadrata
+	$n \times n$.
+	
+	Il programma deve calcolare e visualizzare:
+	
+	\begin{enumerate}
+		\item la somma degli elementi della \textbf{diagonale principale};
+		\item la somma degli elementi situati \textbf{sopra la diagonale principale};
+		\item la somma degli elementi situati \textbf{sotto la diagonale principale}.
+	\end{enumerate}
+	
+	\subsubsection{Temperature di una città}
+	Una stazione meteorologica registra la temperatura di diverse città per una settimana.
+	
+	Utilizzare una matrice in cui:
+	\begin{itemize}
+		\item ogni riga rappresenta una città;
+		\item ogni colonna rappresenta un giorno della settimana.
+	\end{itemize}
+	
+	Scrivere un programma Python che permetta di inserire i dati e che:
+	
+	\begin{enumerate}
+		\item calcoli la temperatura media di ogni città;
+		\item individui la città con la temperatura media più alta;
+		\item calcoli la temperatura media registrata in ogni giornata.
+	\end{enumerate}
+	
+	\subsubsection{Vendite di un negozio}
+	Un negozio vuole monitorare il numero di prodotti venduti dai propri reparti durante una settimana.
+	
+	Utilizzare una matrice in cui:
+	\begin{itemize}
+		\item ogni riga rappresenta un reparto;
+		\item ogni colonna rappresenta un giorno della settimana.
+	\end{itemize}
+	
+	Scrivere un programma Python che permetta di inserire i dati e che:
+	
+	\begin{enumerate}
+		\item calcoli il numero totale di prodotti venduti da ogni reparto;
+		\item individui il reparto che ha venduto più prodotti;
+		\item calcoli il numero totale di prodotti venduti ogni giorno;
+		\item individui il giorno in cui sono stati venduti più prodotti.
+	\end{enumerate}
+	
+	\subsubsection{Consumi elettrici}
+	
+	Un'azienda vuole monitorare il consumo di energia elettrica di alcuni edifici durante una giornata.
+	
+	Utilizzare una matrice in cui:
+	\begin{itemize}
+		\item ogni riga rappresenta un edificio;
+		\item ogni colonna rappresenta un'ora della giornata.
+	\end{itemize}
+	
+	I valori della matrice rappresentano il consumo di energia espresso in kWh.
+	
+	Scrivere un programma Python che:
+	
+	\begin{enumerate}
+		\item calcoli il consumo totale di ogni edificio;
+		\item individui l'edificio con il consumo maggiore;
+		\item calcoli il consumo complessivo per ogni ora;
+		\item individui l'ora in cui si è registrato il consumo complessivo maggiore.
+	\end{enumerate}
+	
+	\subsubsection{Rendimento studenti}
+	Una classe è composta da alcuni studenti. Per ogni studente vengono registrati i voti ottenuti in diverse materie.
+	
+	Utilizzare una matrice in cui:
+	\begin{itemize}
+		\item ogni riga rappresenta uno studente;
+		\item ogni colonna rappresenta una materia.
+	\end{itemize}
+	
+	Scrivere un programma Python che:
+	
+	\begin{enumerate}
+		\item calcoli la media dei voti di ogni studente;
+		\item individui lo studente con la media più alta;
+		\item calcoli la media dei voti di ogni materia;
+		\item individui la materia con la media più alta.
+	\end{enumerate}
+	
+	\subsubsection{Parcheggio multipiano}
+	
+	Un parcheggio è organizzato su più piani. Ogni piano contiene diversi posti auto.
+	
+	Utilizzare una matrice in cui:
+	\begin{itemize}
+		\item il valore $0$ indica un posto libero;
+		\item il valore $1$ indica un posto occupato;
+		\item ogni riga rappresenta un piano;
+		\item ogni cella rappresenta un posto auto.
+	\end{itemize}
+	
+	Scrivere un programma Python che:
+	
+	\begin{enumerate}
+		\item conti il numero totale di posti liberi;
+		\item conti il numero totale di posti occupati;
+		\item individui il piano con il maggior numero di posti liberi;
+		\item calcoli la percentuale di occupazione complessiva del parcheggio.
+	\end{enumerate}
 	
 	
 	\newpage
@@ -1489,6 +1625,538 @@ print("Numero di occorrenze:", max_contatore)
 
 
 
+
+
+
+
+
+
+\newpage
+\subsection{Matrici}
+
+\subsubsection{Somma degli elementi di una matrice}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci la dimensione della matrice: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(n):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	somma = 0
+	
+	for i in range(n):
+		for j in range(n):
+			somma += matrice[i][j]
+	
+	print("La somma degli elementi e':", somma)
+\end{lstlisting}
+
+\newpage
+
+
+\subsubsection{Massimo di una matrice}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di righe: "))
+	m = int(input("Inserisci il numero di colonne: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(m):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	massimo = matrice[0][0]
+	
+	for i in range(n):
+		for j in range(m):
+			if matrice[i][j] > massimo:
+				massimo = matrice[i][j]
+	
+	print("Il massimo elemento e':", massimo)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Conta le occorrenze}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di righe: "))
+	m = int(input("Inserisci il numero di colonne: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(m):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	x = int(input("Inserisci il valore da cercare: "))
+	
+	contatore = 0
+	
+	for i in range(n):
+		for j in range(m):
+			if matrice[i][j] == x:
+				contatore += 1
+	
+	print("Il valore", x, "compare", contatore, "volte.")
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Somma degli elementi delle righe}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di righe: "))
+	m = int(input("Inserisci il numero di colonne: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(m):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	for i in range(n):
+		somma = 0
+		for j in range(m):
+			somma += matrice[i][j]
+	
+	print("Somma della riga", i + 1, ":", somma)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Somma degli elementi delle colonne}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di righe: "))
+	m = int(input("Inserisci il numero di colonne: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(m):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	for j in range(m):
+		somma = 0
+	
+		for i in range(n):
+			somma += matrice[i][j]
+	
+	print("Somma della colonna", j + 1, ":", somma)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Prodotto scalare}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di righe: "))
+	m = int(input("Inserisci il numero di colonne: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(m):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	k = int(input("Inserisci il valore k: "))
+	
+	nuova_matrice = []
+	
+	for i in range(n):
+		riga = []
+	
+		for j in range(m):
+			riga.append(matrice[i][j] * k)
+	
+		nuova_matrice.append(riga)
+	
+	print("Matrice risultante:")
+	
+	for i in range(n):
+		print(nuova_matrice[i])
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Diagonale principale}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci la dimensione della matrice: "))
+	
+	matrice = []
+	
+	for i in range(n):
+		riga = []
+		for j in range(n):
+			valore = int(input(f"Inserisci l'elemento [{i}][{j}]: "))
+			riga.append(valore)
+		matrice.append(riga)
+	
+	somma_diagonale = 0
+	somma_sopra = 0
+	somma_sotto = 0
+	
+	for i in range(n):
+		for j in range(n):
+	
+			if i == j:
+				somma_diagonale += matrice[i][j]
+	
+			elif i < j:
+				somma_sopra += matrice[i][j]
+	
+			elif i > j:
+				somma_sotto += matrice[i][j]
+	
+	print("Somma diagonale principale:", somma_diagonale)
+	print("Somma sopra la diagonale:", somma_sopra)
+	print("Somma sotto la diagonale:", somma_sotto)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Temperature di una città}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di citta': "))
+	m = 7
+	
+	temperature = []
+	
+	for i in range(n):
+		riga = []
+	
+		print("Inserimento temperature della citta'", i + 1)
+	
+		for j in range(m):
+			temperatura = float(input(f"Inserisci la temperatura del giorno {j + 1}: "))
+			riga.append(temperatura)
+	
+		temperature.append(riga)
+	
+	# Media di ogni citta'
+	medie_citta = []
+	
+	for i in range(n):
+		somma = 0
+	
+		for j in range(m):
+			somma += temperature[i][j]
+	
+		media = somma / m
+		medie_citta.append(media)
+	
+		print("Media citta'", i + 1, ":", media)
+	
+	# Citta' con temperatura media piu' alta
+	massima_media = medie_citta[0]
+	citta_massima = 0
+	
+	for i in range(1, n):
+		if medie_citta[i] > massima_media:
+			massima_media = medie_citta[i]
+			citta_massima = i
+	
+	print("La citta' con la temperatura media piu' alta e':", citta_massima + 1)
+	
+	# Media di ogni giornata
+	for j in range(m):
+		somma = 0
+	
+		for i in range(n):
+			somma += temperature[i][j]
+	
+		media = somma / n
+	
+		print("Media del giorno", j + 1, ":", media)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Vendite di un negozio}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di reparti: "))
+	m = 7
+	
+	vendite = []
+	
+	for i in range(n):
+		riga = []
+	
+		print("Inserimento vendite del reparto", i + 1)
+	
+		for j in range(m):
+			quantita = int(input(f"Prodotti venduti nel giorno {j + 1}: "))
+			riga.append(quantita)
+	
+		vendite.append(riga)
+	
+	# Totale vendite di ogni reparto
+	totali_reparti = []
+	
+	for i in range(n):
+		totale = 0
+	
+		for j in range(m):
+			totale += vendite[i][j]
+	
+		totali_reparti.append(totale)
+	
+		print("Totale reparto", i + 1, ":", totale)
+	
+	# Reparto con piu' vendite
+	massimo = totali_reparti[0]
+	reparto_massimo = 0
+	
+	for i in range(1, n):
+		if totali_reparti[i] > massimo:
+			massimo = totali_reparti[i]
+			reparto_massimo = i
+	
+	print("Il reparto con piu' vendite e':", reparto_massimo + 1)
+	
+	# Totale vendite di ogni giorno
+	totali_giorni = []
+	
+	for j in range(m):
+		totale = 0
+	
+		for i in range(n):
+			totale += vendite[i][j]
+	
+		totali_giorni.append(totale)
+	
+		print("Totale del giorno", j + 1, ":", totale)
+	
+	# Giorno con piu' vendite
+	giorno_massimo = 0
+	
+	for j in range(1, m):
+		if totali_giorni[j] > totali_giorni[giorno_massimo]:
+			giorno_massimo = j
+	
+	print("Il giorno con piu' vendite e':", giorno_massimo + 1)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Consumi elettrici}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di edifici: "))
+	m = 24
+	
+	consumi = []
+	
+	for i in range(n):
+		riga = []
+	
+		print("Inserimento consumi dell'edificio", i + 1)
+	
+		for j in range(m):
+			consumo = float(input(f"Consumo dell'ora {j}: "))
+			riga.append(consumo)
+	
+		consumi.append(riga)
+	
+	# Consumo totale di ogni edificio
+	totali_edifici = []
+	
+	for i in range(n):
+		totale = 0
+	
+		for j in range(m):
+			totale += consumi[i][j]
+	
+		totali_edifici.append(totale)
+	
+		print("Consumo edificio", i + 1, ":", totale, "kWh")
+	
+	# Edificio con consumo maggiore
+	edificio_massimo = 0
+	
+	for i in range(1, n):
+		if totali_edifici[i] > totali_edifici[edificio_massimo]:
+			edificio_massimo = i
+	
+	print("L'edificio con il consumo maggiore e':", edificio_massimo + 1)
+	
+	# Consumo complessivo di ogni ora
+	totali_ore = []
+	
+	for j in range(m):
+		totale = 0
+	
+		for i in range(n):
+			totale += consumi[i][j]
+	
+		totali_ore.append(totale)
+	
+		print("Consumo complessivo dell'ora", j, ":", totale, "kWh")
+	
+	# Ora con consumo maggiore
+	ora_massima = 0
+	
+	for j in range(1, m):
+		if totali_ore[j] > totali_ore[ora_massima]:
+			ora_massima = j
+	
+	print("L'ora con il consumo maggiore e':", ora_massima)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Rendimento studenti}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di studenti: "))
+	m = int(input("Inserisci il numero di materie: "))
+	
+	voti = []
+	
+	for i in range(n):
+		riga = []
+	
+		print("Inserimento voti dello studente", i + 1)
+	
+		for j in range(m):
+			voto = float(
+			input(f"Inserisci il voto della materia {j + 1}: "))
+			riga.append(voto)
+	
+		voti.append(riga)
+	
+	# Media di ogni studente
+	medie_studenti = []
+	
+	for i in range(n):
+		somma = 0
+	
+		for j in range(m):
+			somma += voti[i][j]
+	
+		media = somma / m
+		medie_studenti.append(media)
+	
+		print("Media studente", i + 1, ":", media)
+	
+	# Studente con media piu' alta
+	studente_massimo = 0
+	
+	for i in range(1, n):
+		if medie_studenti[i] > medie_studenti[studente_massimo]:
+			studente_massimo = i
+	
+	print("Lo studente con la media piu' alta e':", studente_massimo + 1)
+	
+	# Media di ogni materia
+	medie_materie = []
+	
+	for j in range(m):
+		somma = 0
+	
+		for i in range(n):
+			somma += voti[i][j]
+	
+		media = somma / n
+		medie_materie.append(media)
+	
+		print("Media materia", j + 1, ":", media)
+	
+	# Materia con media piu' alta
+	materia_massima = 0
+	
+	for j in range(1, m):
+		if medie_materie[j] > medie_materie[materia_massima]:
+			materia_massima = j
+	
+	print("La materia con la media piu' alta e':",	materia_massima + 1)
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Parcheggio multipiano}
+
+\begin{lstlisting}[language=Python]
+	n = int(input("Inserisci il numero di piani: "))
+	m = int(input("Inserisci il numero di posti per piano: "))
+	
+	parcheggio = []
+	
+	for i in range(n):
+		riga = []
+	
+		print("Inserimento dati del piano", i + 1)
+	
+		for j in range(m):
+			valore = int(input(f"Posto {j + 1} (0 = libero, 1 = occupato): "))
+			riga.append(valore)
+	
+		parcheggio.append(riga)
+	
+	liberi = 0
+	occupati = 0
+	
+	# Conteggio posti liberi e occupati
+	for i in range(n):
+		for j in range(m):
+	
+			if parcheggio[i][j] == 0:
+				liberi += 1
+			else:
+				occupati += 1
+	
+	print("Posti liberi:", liberi)
+	print("Posti occupati:", occupati)
+	
+	# Piano con piu' posti liberi
+	piano_massimo = 0
+	massimo_liberi = 0
+	
+	for i in range(n):
+		liberi_piano = 0
+	
+		for j in range(m):
+			if parcheggio[i][j] == 0:
+				liberi_piano += 1
+	
+		if liberi_piano > massimo_liberi:
+			massimo_liberi = liberi_piano
+			piano_massimo = i
+	
+	print("Il piano con piu' posti liberi e':", piano_massimo + 1)
+	
+	# Percentuale di occupazione
+	totale_posti = n * m
+	percentuale = occupati / totale_posti * 100
+	
+	print("Percentuale di occupazione:", percentuale, "%")
+\end{lstlisting}
 
 
 \newpage
